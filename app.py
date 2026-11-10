@@ -162,7 +162,7 @@ with tab_red:
     st.plotly_chart(build_families_figure(rows1), width="stretch", key="families_chart")
     _show(ex.verdict_families(rows1))
     st.markdown("---")
-    st.subheader("🔬 Experiment 5: Welche Regel trägt wie viel?")
+    st.subheader("🔬 Experiment 5: Welche Regel bringt wie viel?")
     st.caption("Kern (Knoten) bei fünf festen Instanzen, wenn je eine Regel fehlt.")
     rows5 = _ablation()
     st.plotly_chart(build_ablation_figure(rows5), width="stretch", key="ablation_chart")
